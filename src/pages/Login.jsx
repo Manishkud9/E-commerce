@@ -1,7 +1,6 @@
 import React, { useContext, useState } from 'react'
-import toast from 'react-hot-toast'
 import { Link, useNavigate } from 'react-router-dom'
-import { authContext } from '../context/AuthContext'
+import { authContext } from '../Context/AuthContext'
 
 const Login = () => {
 
